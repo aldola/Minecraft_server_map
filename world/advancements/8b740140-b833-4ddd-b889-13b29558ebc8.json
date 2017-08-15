@@ -95,6 +95,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_brick": "2017-08-15 18:21:26 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2017-08-11 19:01:12 +0200"
@@ -128,6 +134,12 @@
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2017-08-12 15:45:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2017-08-15 20:06:41 +0200"
     },
     "done": true
   },
@@ -335,6 +347,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2017-08-15 20:54:06 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2017-08-11 18:45:08 +0200"
@@ -373,9 +391,13 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2017-08-15 20:43:04 +0200",
       "cooked_mutton": "2017-08-13 16:21:02 +0200",
       "cooked_beef": "2017-08-12 15:43:30 +0200",
       "beef": "2017-08-12 16:03:36 +0200",
+      "beetroot_soup": "2017-08-15 20:54:13 +0200",
+      "cookie": "2017-08-15 18:50:56 +0200",
+      "raw_cod": "2017-08-15 20:39:17 +0200",
       "carrot": "2017-08-12 17:59:18 +0200"
     },
     "done": false
@@ -559,6 +581,14 @@
       "has_bed": "2017-08-14 14:40:11 +0200"
     },
     "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "bred_chicken": "2017-08-15 21:46:27 +0200",
+      "bred_sheep": "2017-08-15 21:52:57 +0200",
+      "bred_pig": "2017-08-15 21:50:09 +0200"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
@@ -918,6 +948,7 @@
       "zombie": "2017-08-12 15:10:34 +0200",
       "cave_spider": "2017-08-14 18:21:54 +0200",
       "witch": "2017-08-13 23:00:12 +0200",
+      "guardian": "2017-08-15 20:06:39 +0200",
       "spider": "2017-08-12 14:11:54 +0200",
       "ghast": "2017-08-14 00:00:10 +0200",
       "creeper": "2017-08-12 15:10:52 +0200",
@@ -1096,6 +1127,12 @@
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2017-08-12 15:14:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2017-08-15 21:58:27 +0200"
     },
     "done": true
   },
@@ -1477,6 +1514,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2017-08-15 20:06:41 +0200"
+    },
+    "done": true
+  },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2017-08-12 17:22:50 +0200"
@@ -1628,6 +1671,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_brick": "2017-08-15 18:21:26 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2017-08-11 18:34:25 +0200"
@@ -1760,6 +1809,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_brick": "2017-08-15 18:21:26 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2017-08-14 14:40:11 +0200"
@@ -1769,6 +1824,12 @@
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_stone": "2017-08-11 18:42:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred_chicken": "2017-08-15 21:46:27 +0200"
     },
     "done": true
   },
@@ -1823,6 +1884,12 @@
   "minecraft:recipes/food/cookie": {
     "criteria": {
       "has_cocoa": "2017-08-14 20:24:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2017-08-15 20:06:41 +0200"
     },
     "done": true
   },

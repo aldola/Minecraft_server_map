@@ -149,6 +149,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2017-08-15 20:14:01 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_wool": {
     "criteria": {
       "has_white_wool": "2017-08-11 18:05:14 +0200"
@@ -394,10 +400,13 @@
       "porkchop": "2017-08-12 18:32:23 +0200",
       "apple": "2017-08-12 14:12:09 +0200",
       "potato": "2017-08-12 18:56:22 +0200",
+      "melon": "2017-08-15 21:55:46 +0200",
       "pumpkin_pie": "2017-08-12 18:24:00 +0200",
       "mutton": "2017-08-11 18:06:29 +0200",
       "bread": "2017-08-12 16:00:05 +0200",
       "rotten_flesh": "2017-08-12 18:28:36 +0200",
+      "cookie": "2017-08-15 19:12:32 +0200",
+      "raw_cod": "2017-08-15 20:20:35 +0200",
       "beetroot": "2017-08-12 18:59:29 +0200",
       "cooked_chicken": "2017-08-11 18:32:02 +0200",
       "carrot": "2017-08-13 01:25:32 +0200"
@@ -413,6 +422,12 @@
   "minecraft:recipes/building_blocks/nether_wart_block": {
     "criteria": {
       "has_nether_wart": "2017-08-13 17:51:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2017-08-15 18:18:25 +0200"
     },
     "done": true
   },
@@ -491,6 +506,12 @@
   "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
     "criteria": {
       "has_sand": "2017-08-12 15:52:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_bonemeal": "2017-08-15 18:50:21 +0200"
     },
     "done": true
   },
@@ -922,6 +943,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "zombie_pigman": "2017-08-15 18:18:25 +0200",
       "wither_skeleton": "2017-08-13 17:53:35 +0200",
       "zombie_villager": "2017-08-13 18:33:03 +0200",
       "magma_cube": "2017-08-13 16:52:04 +0200",
@@ -932,6 +954,7 @@
       "zombie": "2017-08-11 18:17:55 +0200",
       "silverfish": "2017-08-12 14:37:13 +0200",
       "witch": "2017-08-11 18:40:15 +0200",
+      "guardian": "2017-08-15 20:07:50 +0200",
       "spider": "2017-08-12 15:56:46 +0200",
       "ghast": "2017-08-13 17:33:43 +0200",
       "creeper": "2017-08-11 19:43:31 +0200",
@@ -1227,6 +1250,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_bonemeal": {
+    "criteria": {
+      "has_bonemeal": "2017-08-15 18:50:21 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_at_least_9_iron_ingot": "2017-08-12 15:19:40 +0200"
@@ -1425,6 +1454,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2017-08-15 20:14:01 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2017-08-12 18:51:03 +0200"
@@ -1530,6 +1565,12 @@
   "minecraft:recipes/misc/coal": {
     "criteria": {
       "has_the_recipe": "2017-08-12 15:50:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2017-08-15 20:14:01 +0200"
     },
     "done": true
   },
@@ -1917,6 +1958,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2017-08-15 20:14:01 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/diamond": {
     "criteria": {
       "has_the_recipe": "2017-08-12 15:18:13 +0200"
@@ -1926,6 +1973,12 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2017-08-12 15:18:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_block": {
+    "criteria": {
+      "has_the_recipe": "2017-08-15 18:50:21 +0200"
     },
     "done": true
   },
@@ -2016,6 +2069,12 @@
   "minecraft:recipes/decorations/light_gray_stained_glass_pane": {
     "criteria": {
       "has_glass": "2017-08-12 15:54:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_at_least_9_bonemeal": "2017-08-15 18:50:21 +0200"
     },
     "done": true
   }
