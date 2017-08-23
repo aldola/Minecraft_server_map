@@ -239,6 +239,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2017-08-21 23:16:54 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brown_concrete_powder": {
     "criteria": {
       "has_gravel": "2017-08-12 15:18:04 +0200"
@@ -254,6 +260,12 @@
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2017-08-14 14:40:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/levitate": {
+    "criteria": {
+      "levitated": "2017-08-21 23:28:59 +0200"
     },
     "done": true
   },
@@ -284,6 +296,12 @@
   "minecraft:recipes/building_blocks/blue_stained_glass": {
     "criteria": {
       "has_glass": "2017-08-13 19:26:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2017-08-21 23:22:49 +0200"
     },
     "done": true
   },
@@ -406,6 +424,7 @@
       "cooked_porkchop": "2017-08-15 20:43:04 +0200",
       "cooked_mutton": "2017-08-13 16:21:02 +0200",
       "cooked_beef": "2017-08-12 15:43:30 +0200",
+      "chorus_fruit": "2017-08-21 23:26:30 +0200",
       "beef": "2017-08-12 16:03:36 +0200",
       "baked_potato": "2017-08-17 22:11:08 +0200",
       "beetroot_soup": "2017-08-15 20:54:13 +0200",
@@ -923,6 +942,12 @@
     },
     "done": true
   },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2017-08-21 23:11:16 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
       "has_cobblestone": "2017-08-11 18:34:25 +0200"
@@ -973,6 +998,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "shulker": "2017-08-21 23:20:11 +0200",
       "wither_skeleton": "2017-08-14 13:53:18 +0200",
       "zombie_villager": "2017-08-14 17:55:39 +0200",
       "magma_cube": "2017-08-14 00:00:50 +0200",
@@ -1202,6 +1228,12 @@
     },
     "done": true
   },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2017-08-21 22:25:18 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal": {
     "criteria": {
       "has_black_dye": "2017-08-12 16:28:17 +0200"
@@ -1271,6 +1303,12 @@
   "minecraft:recipes/misc/light_gray_dye_from_gray_bonemeal": {
     "criteria": {
       "has_bonemeal": "2017-08-20 13:40:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_bricks": {
+    "criteria": {
+      "has_end_stone": "2017-08-21 23:05:33 +0200"
     },
     "done": true
   },
@@ -1586,6 +1624,12 @@
     },
     "done": true
   },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2017-08-21 23:16:25 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magma": {
     "criteria": {
       "has_magma_cream": "2017-08-14 00:01:04 +0200"
@@ -1625,6 +1669,12 @@
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2017-08-12 15:45:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2017-08-21 23:15:05 +0200"
     },
     "done": true
   },
@@ -1728,6 +1778,12 @@
   "minecraft:recipes/decorations/purple_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2017-08-14 14:40:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2017-08-21 23:22:49 +0200"
     },
     "done": true
   },
@@ -1863,6 +1919,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2017-08-21 23:22:49 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
       "has_white_wool": "2017-08-12 18:37:46 +0200"
@@ -1890,6 +1952,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2017-08-14 14:40:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2017-08-21 22:25:18 +0200"
     },
     "done": true
   },

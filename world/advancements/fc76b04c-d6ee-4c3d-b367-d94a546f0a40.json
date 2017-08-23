@@ -269,6 +269,12 @@
     },
     "done": true
   },
+  "minecraft:end/levitate": {
+    "criteria": {
+      "levitated": "2017-08-21 23:27:06 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2017-08-11 18:08:40 +0200"
@@ -419,6 +425,7 @@
       "chicken": "2017-08-11 18:04:03 +0200",
       "cooked_mutton": "2017-08-12 19:05:01 +0200",
       "cooked_beef": "2017-08-14 18:08:36 +0200",
+      "chorus_fruit": "2017-08-21 23:13:19 +0200",
       "beef": "2017-08-11 18:03:50 +0200",
       "baked_potato": "2017-08-13 17:28:47 +0200",
       "porkchop": "2017-08-12 18:32:23 +0200",
@@ -993,6 +1000,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "zombie_pigman": "2017-08-15 18:18:25 +0200",
+      "shulker": "2017-08-21 23:18:46 +0200",
       "wither_skeleton": "2017-08-13 17:53:35 +0200",
       "zombie_villager": "2017-08-13 18:33:03 +0200",
       "magma_cube": "2017-08-13 16:52:04 +0200",
@@ -1104,6 +1112,12 @@
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2017-08-12 15:54:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_at_least_9_gold_nugget": "2017-08-21 22:56:58 +0200"
     },
     "done": true
   },
@@ -1239,6 +1253,12 @@
     },
     "done": true
   },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2017-08-21 22:25:14 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal": {
     "criteria": {
       "has_black_dye": "2017-08-12 16:36:52 +0200"
@@ -1314,6 +1334,12 @@
   "minecraft:recipes/misc/leather": {
     "criteria": {
       "has_rabbit_hide": "2017-08-18 17:25:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_bricks": {
+    "criteria": {
+      "has_end_stone": "2017-08-21 23:09:49 +0200"
     },
     "done": true
   },
@@ -1641,6 +1667,12 @@
     },
     "done": true
   },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2017-08-21 23:18:17 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magma": {
     "criteria": {
       "has_magma_cream": "2017-08-13 16:52:23 +0200"
@@ -1680,6 +1712,12 @@
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2017-08-11 18:03:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2017-08-21 23:12:30 +0200"
     },
     "done": true
   },
@@ -1757,6 +1795,7 @@
       "forest_hills": "2017-08-12 14:21:53 +0200",
       "plains": "2017-08-11 17:55:41 +0200",
       "savanna": "2017-08-12 18:45:47 +0200",
+      "jungle_edge": "2017-08-21 18:51:45 +0200",
       "savanna_rock": "2017-08-12 22:48:28 +0200",
       "ice_mountains": "2017-08-14 13:29:14 +0200",
       "taiga": "2017-08-12 18:38:40 +0200",
@@ -1768,6 +1807,7 @@
       "roofed_forest": "2017-08-11 18:38:01 +0200",
       "cold_beach": "2017-08-14 13:19:45 +0200",
       "river": "2017-08-11 17:57:29 +0200",
+      "jungle": "2017-08-21 18:51:54 +0200",
       "desert": "2017-08-12 18:45:39 +0200",
       "stone_beach": "2017-08-11 18:38:36 +0200"
     },
@@ -1794,6 +1834,12 @@
   "minecraft:recipes/building_blocks/birch_wooden_slab": {
     "criteria": {
       "has_planks": "2017-08-14 16:23:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_block": {
+    "criteria": {
+      "has_chorus_fruit_popped": "2017-08-21 23:32:11 +0200"
     },
     "done": true
   },
@@ -1947,6 +1993,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/end_rod": {
+    "criteria": {
+      "has_chorus_fruit_popped": "2017-08-21 23:32:11 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_stained_glass_pane": {
     "criteria": {
       "has_glass": "2017-08-12 15:54:40 +0200"
@@ -1968,6 +2020,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2017-08-11 18:17:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2017-08-21 22:25:14 +0200"
     },
     "done": true
   },
