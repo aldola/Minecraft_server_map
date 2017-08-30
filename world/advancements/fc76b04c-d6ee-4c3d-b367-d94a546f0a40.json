@@ -649,6 +649,12 @@
     },
     "done": true
   },
+  "fp:labor": {
+    "criteria": {
+      "scanner": "2017-08-30 23:49:34 +0200"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_sand": "2017-08-12 15:52:27 +0200"
