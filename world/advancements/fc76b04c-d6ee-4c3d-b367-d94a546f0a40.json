@@ -23,9 +23,21 @@
     },
     "done": true
   },
+  "fp:erse": {
+    "criteria": {
+      "get_erse": "2017-08-30 20:04:08 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2017-08-11 18:18:49 +0200"
+    },
+    "done": true
+  },
+  "fp:not_diamond": {
+    "criteria": {
+      "tin_ore": "2017-08-29 23:23:59 +0200"
     },
     "done": true
   },
@@ -347,6 +359,12 @@
     },
     "done": true
   },
+  "fp:crys_neon": {
+    "criteria": {
+      "neon": "2017-08-29 23:17:24 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2017-08-12 16:16:53 +0200"
@@ -520,6 +538,12 @@
   "minecraft:recipes/redstone/fence_gate": {
     "criteria": {
       "has_planks": "2017-08-11 18:08:19 +0200"
+    },
+    "done": true
+  },
+  "fp:composite": {
+    "criteria": {
+      "composite": "2017-08-30 20:04:14 +0200"
     },
     "done": true
   },
@@ -742,6 +766,12 @@
   "minecraft:recipes/transportation/chest_minecart": {
     "criteria": {
       "has_minecart": "2017-08-18 20:11:29 +0200"
+    },
+    "done": true
+  },
+  "fp:crys_alutin": {
+    "criteria": {
+      "alutin": "2017-08-30 14:33:47 +0200"
     },
     "done": true
   },
@@ -1595,6 +1625,12 @@
     },
     "done": true
   },
+  "fp:the_impalpable": {
+    "criteria": {
+      "escanner": "2017-08-30 20:04:39 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_sand": "2017-08-12 15:52:27 +0200"
@@ -1622,6 +1658,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2017-08-11 18:08:22 +0200"
+    },
+    "done": true
+  },
+  "fp:root": {
+    "criteria": {
+      "escanner": "2017-08-30 20:04:39 +0200"
     },
     "done": true
   },

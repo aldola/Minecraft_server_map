@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "fp:not_diamond": {
+    "criteria": {
+      "tin_ore": "2017-08-29 23:30:35 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_gravel": "2017-08-12 15:18:04 +0200"
@@ -344,6 +350,12 @@
   "minecraft:recipes/building_blocks/diorite": {
     "criteria": {
       "has_quartz": "2017-08-12 17:30:19 +0200"
+    },
+    "done": true
+  },
+  "fp:crys_neon": {
+    "criteria": {
+      "neon": "2017-08-29 23:15:37 +0200"
     },
     "done": true
   },
