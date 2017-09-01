@@ -47,6 +47,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/pillar_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2017-09-01 20:32:59 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2017-08-12 14:34:04 +0200"
@@ -651,9 +657,10 @@
   },
   "fp:labor": {
     "criteria": {
-      "scanner": "2017-08-30 23:49:34 +0200"
+      "scanner": "2017-08-30 23:49:34 +0200",
+      "forscher": "2017-09-01 21:09:51 +0200"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
@@ -886,6 +893,12 @@
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2017-08-11 18:08:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2017-09-01 20:32:59 +0200"
     },
     "done": true
   },
@@ -1397,6 +1410,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2017-09-01 20:32:59 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2017-08-12 15:54:40 +0200"
@@ -1583,6 +1602,12 @@
     },
     "done": true
   },
+  "fp:need_bucket": {
+    "criteria": {
+      "industrie_ofen": "2017-09-01 21:59:07 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2017-08-12 18:51:03 +0200"
@@ -1616,6 +1641,12 @@
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2017-08-12 14:34:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2017-09-01 20:32:59 +0200"
     },
     "done": true
   },
