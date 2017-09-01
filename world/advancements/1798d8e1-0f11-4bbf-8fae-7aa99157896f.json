@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "fp:not_diamond": {
+    "criteria": {
+      "tin_ore": "2017-09-01 23:28:14 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_gravel": "2017-08-11 18:51:04 +0200"
@@ -329,6 +335,12 @@
     },
     "done": true
   },
+  "fp:crys_neon": {
+    "criteria": {
+      "neon": "2017-09-01 23:27:30 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2017-08-11 18:51:02 +0200"
@@ -443,6 +455,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2017-09-01 23:00:36 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2017-08-11 19:10:42 +0200"
@@ -530,6 +548,12 @@
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_sandstone": "2017-08-19 23:33:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2017-09-01 23:39:54 +0200"
     },
     "done": true
   },
@@ -1203,6 +1227,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2017-09-01 23:00:36 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_log": "2017-08-11 18:06:50 +0200"
@@ -1278,6 +1308,12 @@
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2017-08-12 15:29:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2017-09-01 23:00:36 +0200"
     },
     "done": true
   },
@@ -1492,6 +1528,12 @@
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
       "has_cobblestone": "2017-08-11 18:22:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2017-09-01 23:47:43 +0200"
     },
     "done": true
   },

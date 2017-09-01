@@ -323,6 +323,12 @@
     },
     "done": true
   },
+  "fp:neon_energy": {
+    "criteria": {
+      "generator": "2017-09-02 00:23:43 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_wool": {
     "criteria": {
       "has_white_wool": "2017-08-11 18:05:14 +0200"
