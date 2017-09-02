@@ -1,0 +1,109 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  Inventory Tweaks Coremod (InventoryTweaks-1.63+beta.107.jar)
+Contact their authors BEFORE contacting forge
+
+// Daisy, daisy...
+
+Time: 3/09/17 1:10
+Description: Ticking block entity
+
+java.lang.NullPointerException: Ticking block entity
+	at futurepack.common.item.ItemRecipe$BlueprintRecipe.isItemValid(ItemRecipe.java:102)
+	at futurepack.common.block.machines.TileEntityOptiBench.sortCrafting(TileEntityOptiBench.java:180)
+	at futurepack.common.block.machines.TileEntityOptiBench.updateNaturally(TileEntityOptiBench.java:39)
+	at futurepack.common.block.TileEntityModificationBase.func_73660_a(TileEntityModificationBase.java:339)
+	at net.minecraft.world.World.func_72939_s(World.java:1807)
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:614)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:761)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:391)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:665)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:523)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at futurepack.common.item.ItemRecipe$BlueprintRecipe.isItemValid(ItemRecipe.java:102)
+	at futurepack.common.block.machines.TileEntityOptiBench.sortCrafting(TileEntityOptiBench.java:180)
+	at futurepack.common.block.machines.TileEntityOptiBench.updateNaturally(TileEntityOptiBench.java:39)
+	at futurepack.common.block.TileEntityModificationBase.func_73660_a(TileEntityModificationBase.java:339)
+
+-- Block entity being ticked --
+Details:
+	Name: minecraft:fp-optibench // futurepack.common.block.machines.TileEntityOptiBench
+	Block type: ID #589 (tile.optiBench // futurepack.common.block.machines.BlockOptiBensch)
+	Block data value: 9 / 0x9 / 0b1001
+	Block location: World: (-257,76,288), Chunk: (at 15,4,0 in -17,18; contains blocks -272,0,288 to -257,255,303), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Actual block type: ID #589 (tile.optiBench // futurepack.common.block.machines.BlockOptiBensch)
+	Actual block data value: 9 / 0x9 / 0b1001
+Stacktrace:
+	at net.minecraft.world.World.func_72939_s(World.java:1807)
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:614)
+
+-- Affected level --
+Details:
+	Level name: world
+	All players: 0 total; []
+	Chunk stats: ServerChunkCache: 636 Drop: 0
+	Level seed: -3565759318674786813
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (24,64,192), Chunk: (at 8,4,0 in 1,12; contains blocks 16,0,192 to 31,255,207), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 8241993 game time, 7475512 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 9417 (now: true), thunder time: 54339 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:761)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:391)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:665)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:523)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_144, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 3186990616 bytes (3039 MB) / 4140826624 bytes (3949 MB) up to 4140826624 bytes (3949 MB)
+	JVM Flags: 2 total; -Xmx4G -Xms4G
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP 9.40 Powered by Forge 14.21.1.2387 20 mods loaded, 20 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	minecraft{1.12} [Minecraft] (minecraft.jar) 
+	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forge-1.12-14.21.1.2387-universal.jar) 
+	UCHIJAAAA	forge{14.21.1.2387} [Minecraft Forge] (forge-1.12-14.21.1.2387-universal.jar) 
+	UCHIJAAAA	appliedenergistics2{rv5-alpha-3} [Applied Energistics 2] (appliedenergistics2-rv5-alpha-3.jar) 
+	UCHIJAAAA	valkyrielib{1.12-2.0.0c} [Valkyrie Lib] (ValkyrieLib-1.12.jar) 
+	UCHIJAAAA	environmentaltech{1.12-2.0.0c} [Environmental Tech] (Environmental-Tech-Mod-1.12.1.jar) 
+	UCHIJAAAA	extrautils2{1.0} [Extra Utilities 2] (extrautils2-1.12-1.5.1.jar) 
+	UCHIJAAAA	fp{26.1.4} [Futurepack] (Futurepack-1.12.jar) 
+	UCHIJAAAA	fp.api{1.1.0} [Futurepack API] (Futurepack-1.12.jar) 
+	UCHIJAAAA	gravestone{1.8.4} [Gravestone Mod] (gravestone-1.8.4.jar) 
+	UCHIJAAAA	waila{1.8.19} [Waila] (Hwyla-1.8.19-B33_1.12.jar) 
+	UCHIJAAAA	ic2{2.8.14-ex112} [IndustrialCraft 2] (industrialcraft-2-2.8.14-ex112.jar) 
+	UCHIJAAAA	inventorytweaks{1.63+beta.107.015dbec} [Inventory Tweaks] (InventoryTweaks-1.63+beta.107.jar) 
+	UCHIJAAAA	ironchest{1.12-7.0.31.818} [Iron Chest] (ironchest-1.12-7.0.31.818.jar) 
+	UCHIJAAAA	jei{4.7.4.80} [Just Enough Items] (jei_1.12-4.7.4.80.jar) 
+	UCHIJAAAA	mercurius_updater{1.0} [mercurius_updater] (MercuriusUpdater-1.12.jar) 
+	UCHIJAAAA	morpheus{1.12-3.3.2} [Morpheus] (Morpheus-1.12-3.3.2.jar) 
+	UCHIJAAAA	wawla{2.5.239} [What Are We Looking At] (Wawla-1.12-2.5.239.jar) 
+	UCHIJAAAA	waystones{4.0.15} [Waystones] (Waystones_1.12.1-4.0.15.jar) 
+	Loaded coremods (and transformers): 
+Inventory Tweaks Coremod (InventoryTweaks-1.63+beta.107.jar)
+  invtweaks.forge.asm.ContainerTransformer
+	AE2 Version: alpha rv5-alpha-3 for Forge 14.21.1.2412
+	AE2 Integration: IC2:ON, RC:OFF, MFR:OFF, Waila:ON, Mekanism:OFF, OpenComputers:OFF, THE_ONE_PROBE:OFF, TESLA:OFF
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 20; []
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

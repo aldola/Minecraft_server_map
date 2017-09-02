@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "fp:erse": {
+    "criteria": {
+      "get_erse": "2017-09-02 23:48:37 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2017-08-11 18:22:21 +0200"
@@ -287,6 +293,12 @@
     },
     "done": true
   },
+  "fp:neon_energy": {
+    "criteria": {
+      "generator": "2017-09-02 21:25:56 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_wool": {
     "criteria": {
       "has_white_wool": "2017-08-11 18:05:43 +0200"
@@ -485,9 +497,21 @@
     },
     "done": true
   },
+  "fp:composite": {
+    "criteria": {
+      "composite": "2017-09-02 21:43:56 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_banner": {
     "criteria": {
       "has_white_wool": "2017-08-11 18:05:43 +0200"
+    },
+    "done": true
+  },
+  "fp:mainboard": {
+    "criteria": {
+      "mainboard": "2017-09-03 00:14:26 +0200"
     },
     "done": true
   },
@@ -584,6 +608,13 @@
   "minecraft:recipes/building_blocks/granite": {
     "criteria": {
       "has_quartz": "2017-08-12 23:28:27 +0200"
+    },
+    "done": true
+  },
+  "fp:labor": {
+    "criteria": {
+      "scanner": "2017-09-02 22:32:02 +0200",
+      "forscher": "2017-09-02 20:54:38 +0200"
     },
     "done": true
   },
@@ -797,6 +828,12 @@
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_gravel": "2017-08-11 18:51:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2017-09-02 21:09:52 +0200"
     },
     "done": true
   },
@@ -1343,6 +1380,12 @@
     },
     "done": true
   },
+  "fp:need_bucket": {
+    "criteria": {
+      "industrie_ofen": "2017-09-02 20:58:40 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2017-08-12 15:29:50 +0200"
@@ -1448,6 +1491,12 @@
   "minecraft:end/find_end_city": {
     "criteria": {
       "in_city": "2017-08-21 23:18:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2017-09-02 21:09:52 +0200"
     },
     "done": true
   },

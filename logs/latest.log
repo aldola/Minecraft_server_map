@@ -1,0 +1,65 @@
+[01:26:08] [Server thread/INFO]: Starting minecraft server version 1.12
+[01:26:21] [Server thread/INFO]: Loading properties
+[01:26:21] [Server thread/INFO]: Default game type: SURVIVAL
+[01:26:21] [Server thread/INFO]: Generating keypair
+[01:26:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:26:21] [Server thread/INFO]: Using default channel type
+[01:26:23] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:feuerblume","size":1}' is null
+[01:26:23] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:eisblume","size":1}' is null
+[01:26:23] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:staubblume","size":1}' is null
+[01:26:24] [Server thread/WARN]: PriceRange(-4, -8) invalid, -8 smaller than -4
+[01:26:24] [Server thread/INFO]: Preparing level "world"
+[01:26:28] [Server thread/INFO]: Loaded 508 advancements
+[01:26:29] [Server thread/INFO]: Preparing start region for level 0
+[01:26:30] [Server thread/INFO]: Preparing spawn area: 27%
+[01:26:30] [Server thread/INFO]: Done (6,621s)! For help, type "help" or "?"
+[01:26:31] [Server thread/INFO]: [STDOUT]: Initing Temps of Items.
+[01:26:31] [Server thread/ERROR]: Failed to load data for block entity minecraft:fp-recycler
+java.lang.NullPointerException: null
+	at futurepack.common.block.machines.TileEntityRecycler.func_70296_d(TileEntityRecycler.java:608) ~[TileEntityRecycler.class:?]
+	at futurepack.common.block.machines.TileEntityMachineBase.func_70299_a(TileEntityMachineBase.java:125) ~[TileEntityMachineBase.class:?]
+	at futurepack.common.block.machines.TileEntityMachineBase.func_145839_a(TileEntityMachineBase.java:56) ~[TileEntityMachineBase.class:?]
+	at futurepack.common.block.machines.TileEntityRecycler.func_145839_a(TileEntityRecycler.java:484) ~[TileEntityRecycler.class:?]
+	at net.minecraft.tileentity.TileEntity.func_190200_a(TileEntity.java:120) [avh.class:?]
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.loadEntities(AnvilChunkLoader.java:488) [ayc.class:?]
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.syncCallback(ChunkIOProvider.java:97) [ChunkIOProvider.class:?]
+	at net.minecraftforge.common.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:94) [ChunkIOExecutor.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:118) [ol.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.func_186028_c(ChunkProviderServer.java:89) [ol.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.func_186025_d(ChunkProviderServer.java:135) [ol.class:?]
+	at net.minecraft.world.World.func_72964_e(World.java:308) [ams.class:?]
+	at net.minecraft.world.World.func_175726_f(World.java:303) [ams.class:?]
+	at net.minecraft.world.World.func_180495_p(World.java:908) [ams.class:?]
+	at net.minecraft.world.World.func_175627_a(World.java:3166) [ams.class:?]
+	at net.minecraft.world.World.func_175676_y(World.java:3209) [ams.class:?]
+	at net.minecraft.world.World.func_175651_c(World.java:3234) [ams.class:?]
+	at net.minecraft.world.World.func_175687_A(World.java:3271) [ams.class:?]
+	at futurepack.common.block.TileEntityElektroMagnet.updateTile(TileEntityElektroMagnet.java:21) [TileEntityElektroMagnet.class:?]
+	at futurepack.common.block.TileEntityModificationBase.doUpdate(TileEntityModificationBase.java:368) [TileEntityModificationBase.class:?]
+	at futurepack.common.block.TileEntityModificationBase.func_73660_a(TileEntityModificationBase.java:194) [TileEntityModificationBase.class:?]
+	at net.minecraft.world.World.func_72939_s(World.java:1807) [ams.class:?]
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:614) [om.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:761) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:391) [nx.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:665) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:523) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_144]
+[01:26:44] [User Authenticator #1/INFO]: UUID of player Millanes89 is 1798d8e1-0f11-4bbf-8fae-7aa99157896f
+[01:26:46] [Server thread/INFO]: Millanes89[/192.168.1.1:63688] logged in with entity id 248 at (-253.64170579693257, 76.0, 296.8611082855715)
+[01:26:46] [Server thread/INFO]: Millanes89 joined the game
+[01:32:03] [Server thread/INFO]: Millanes89 lost connection: Disconnected
+[01:32:03] [Server thread/INFO]: Millanes89 left the game
+[01:32:14] [Server thread/INFO]: Stopping the server
+[01:32:14] [Server thread/INFO]: Stopping server
+[01:32:14] [Server thread/INFO]: Saving players
+[01:32:14] [Server thread/INFO]: Saving worlds
+[01:32:14] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[01:32:14] [Server thread/INFO]: Saving chunks for level 'world'/the_nether
+[01:32:14] [Server thread/INFO]: Saving chunks for level 'world'/the_end
+[01:32:14] [Server thread/INFO]: Saving chunks for level 'world'/tyros
+[01:32:14] [Server thread/INFO]: Saving chunks for level 'world'/Deep Dark
+[01:32:14] [Server thread/INFO]: Saving chunks for level 'world'/menelaus
+[01:32:14] [Server thread/INFO]: Saving chunks for level 'world'/ExtraUtils2_Quarry_Dim
+[01:32:15] [Server Shutdown Thread/INFO]: Stopping server
+[01:32:15] [Server Shutdown Thread/INFO]: Saving players
+[01:32:15] [Server Shutdown Thread/INFO]: Saving worlds
