@@ -565,6 +565,12 @@
     },
     "done": true
   },
+  "fp:mainboard": {
+    "criteria": {
+      "mainboard": "2017-09-02 13:40:15 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_sand": "2017-08-12 15:52:27 +0200"

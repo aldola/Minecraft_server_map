@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "fp:erse": {
+    "criteria": {
+      "get_erse": "2017-09-02 12:37:58 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2017-08-11 18:34:25 +0200"
@@ -534,6 +540,12 @@
     },
     "done": true
   },
+  "fp:composite": {
+    "criteria": {
+      "composite": "2017-09-02 12:37:58 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_banner": {
     "criteria": {
       "has_white_wool": "2017-08-12 18:37:46 +0200"
@@ -647,6 +659,12 @@
       "has_glass": "2017-08-13 19:26:43 +0200"
     },
     "done": true
+  },
+  "fp:labor": {
+    "criteria": {
+      "forscher": "2017-09-02 17:22:49 +0200"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
@@ -1063,6 +1081,12 @@
   "minecraft:recipes/decorations/end_crystal": {
     "criteria": {
       "has_ender_eye": "2017-08-14 19:24:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2017-09-02 12:32:12 +0200"
     },
     "done": true
   },
@@ -1774,6 +1798,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2017-09-02 12:32:12 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gray_dye": {
     "criteria": {
       "has_black_dye": "2017-08-12 16:28:17 +0200"
@@ -1782,8 +1812,11 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "ice_flats": "2017-09-02 13:03:05 +0200",
+      "frozen_river": "2017-09-02 13:03:06 +0200",
       "forest": "2017-08-12 15:48:39 +0200",
       "birch_forest": "2017-08-12 18:46:39 +0200",
+      "swampland": "2017-09-02 16:30:16 +0200",
       "deep_ocean": "2017-08-12 18:43:01 +0200",
       "beaches": "2017-08-12 18:32:38 +0200",
       "extreme_hills_with_trees": "2017-08-11 18:32:09 +0200",
@@ -1795,6 +1828,7 @@
       "jungle_edge": "2017-08-14 20:23:29 +0200",
       "taiga": "2017-08-12 16:26:44 +0200",
       "taiga_hills": "2017-08-12 18:33:24 +0200",
+      "birch_forest_hills": "2017-09-02 16:26:15 +0200",
       "ocean": "2017-08-12 18:42:56 +0200",
       "extreme_hills": "2017-08-11 18:31:49 +0200",
       "roofed_forest": "2017-08-12 16:00:36 +0200",
@@ -2138,6 +2172,12 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2017-08-11 18:34:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2017-09-02 12:32:12 +0200"
     },
     "done": true
   },
