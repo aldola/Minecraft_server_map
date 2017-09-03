@@ -1,65 +1,314 @@
-[01:26:08] [Server thread/INFO]: Starting minecraft server version 1.12
-[01:26:21] [Server thread/INFO]: Loading properties
-[01:26:21] [Server thread/INFO]: Default game type: SURVIVAL
-[01:26:21] [Server thread/INFO]: Generating keypair
-[01:26:21] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:26:21] [Server thread/INFO]: Using default channel type
-[01:26:23] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:feuerblume","size":1}' is null
-[01:26:23] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:eisblume","size":1}' is null
-[01:26:23] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:staubblume","size":1}' is null
-[01:26:24] [Server thread/WARN]: PriceRange(-4, -8) invalid, -8 smaller than -4
-[01:26:24] [Server thread/INFO]: Preparing level "world"
-[01:26:28] [Server thread/INFO]: Loaded 508 advancements
-[01:26:29] [Server thread/INFO]: Preparing start region for level 0
-[01:26:30] [Server thread/INFO]: Preparing spawn area: 27%
-[01:26:30] [Server thread/INFO]: Done (6,621s)! For help, type "help" or "?"
-[01:26:31] [Server thread/INFO]: [STDOUT]: Initing Temps of Items.
-[01:26:31] [Server thread/ERROR]: Failed to load data for block entity minecraft:fp-recycler
-java.lang.NullPointerException: null
-	at futurepack.common.block.machines.TileEntityRecycler.func_70296_d(TileEntityRecycler.java:608) ~[TileEntityRecycler.class:?]
-	at futurepack.common.block.machines.TileEntityMachineBase.func_70299_a(TileEntityMachineBase.java:125) ~[TileEntityMachineBase.class:?]
-	at futurepack.common.block.machines.TileEntityMachineBase.func_145839_a(TileEntityMachineBase.java:56) ~[TileEntityMachineBase.class:?]
-	at futurepack.common.block.machines.TileEntityRecycler.func_145839_a(TileEntityRecycler.java:484) ~[TileEntityRecycler.class:?]
-	at net.minecraft.tileentity.TileEntity.func_190200_a(TileEntity.java:120) [avh.class:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.loadEntities(AnvilChunkLoader.java:488) [ayc.class:?]
-	at net.minecraftforge.common.chunkio.ChunkIOProvider.syncCallback(ChunkIOProvider.java:97) [ChunkIOProvider.class:?]
-	at net.minecraftforge.common.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:94) [ChunkIOExecutor.class:?]
-	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:118) [ol.class:?]
-	at net.minecraft.world.gen.ChunkProviderServer.func_186028_c(ChunkProviderServer.java:89) [ol.class:?]
-	at net.minecraft.world.gen.ChunkProviderServer.func_186025_d(ChunkProviderServer.java:135) [ol.class:?]
-	at net.minecraft.world.World.func_72964_e(World.java:308) [ams.class:?]
-	at net.minecraft.world.World.func_175726_f(World.java:303) [ams.class:?]
-	at net.minecraft.world.World.func_180495_p(World.java:908) [ams.class:?]
-	at net.minecraft.world.World.func_175627_a(World.java:3166) [ams.class:?]
-	at net.minecraft.world.World.func_175676_y(World.java:3209) [ams.class:?]
-	at net.minecraft.world.World.func_175651_c(World.java:3234) [ams.class:?]
-	at net.minecraft.world.World.func_175687_A(World.java:3271) [ams.class:?]
-	at futurepack.common.block.TileEntityElektroMagnet.updateTile(TileEntityElektroMagnet.java:21) [TileEntityElektroMagnet.class:?]
-	at futurepack.common.block.TileEntityModificationBase.doUpdate(TileEntityModificationBase.java:368) [TileEntityModificationBase.class:?]
-	at futurepack.common.block.TileEntityModificationBase.func_73660_a(TileEntityModificationBase.java:194) [TileEntityModificationBase.class:?]
-	at net.minecraft.world.World.func_72939_s(World.java:1807) [ams.class:?]
-	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:614) [om.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:761) [MinecraftServer.class:?]
+[22:27:43] [Server thread/INFO]: Starting minecraft server version 1.12
+[22:27:57] [Server thread/INFO]: Loading properties
+[22:27:57] [Server thread/INFO]: Default game type: SURVIVAL
+[22:27:57] [Server thread/INFO]: Generating keypair
+[22:27:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:27:57] [Server thread/INFO]: Using default channel type
+[22:27:58] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:feuerblume","size":1}' is null
+[22:27:58] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:eisblume","size":1}' is null
+[22:27:58] [Server thread/INFO]: [STDERR]: ItemStack parsing failed: '{"name":"sem:staubblume","size":1}' is null
+[22:27:59] [Server thread/WARN]: PriceRange(-4, -8) invalid, -8 smaller than -4
+[22:28:00] [Server thread/INFO]: Preparing level "world"
+[22:28:04] [Server thread/INFO]: Loaded 508 advancements
+[22:28:05] [Server thread/INFO]: Preparing start region for level 0
+[22:28:06] [Server thread/INFO]: Preparing spawn area: 22%
+[22:28:07] [Server thread/INFO]: Done (6,869s)! For help, type "help" or "?"
+[22:28:07] [Server thread/INFO]: [STDOUT]: Initing Temps of Items.
+[22:29:26] [User Authenticator #1/INFO]: UUID of player Millanes89 is 1798d8e1-0f11-4bbf-8fae-7aa99157896f
+[22:29:27] [Server thread/INFO]: Millanes89[/192.168.1.1:49295] logged in with entity id 245 at (-249.75850811036415, 76.0, 290.3678296473747)
+[22:29:27] [Server thread/INFO]: Millanes89 joined the game
+[22:30:06] [User Authenticator #2/INFO]: UUID of player Hykrenx is fc76b04c-d6ee-4c3d-b367-d94a546f0a40
+[22:30:09] [Server thread/INFO]: Hykrenx[/2.138.72.148:56143] logged in with entity id 981 at (-252.37146300318267, 76.0, 286.3441474963396)
+[22:30:09] [Server thread/INFO]: Hykrenx joined the game
+[22:31:17] [Netty Server IO #3/INFO]: [STDOUT]: Research start
+[22:31:41] [Server thread/INFO]: <Hykrenx> me va un pel cascat
+[22:32:39] [Server thread/INFO]: <Millanes89> XD
+[22:32:50] [Server thread/INFO]: <Hykrenx> bueno, de moment semble que tire mig decent
+[22:33:02] [Server thread/INFO]: <Hykrenx> nomes he hagut de tancar youtufo XD
+[22:33:09] [Server thread/INFO]: <Millanes89> aps xD
+[22:33:36] [Server thread/INFO]: <Millanes89> pot ser si q vagi mig cascat si
+[22:33:52] [Server thread/INFO]: <Millanes89> te picos de 1MB de envio
+[22:33:56] [Server thread/INFO]: <Millanes89> q es lo q tinc xD
+[22:33:57] [Server thread/INFO]: <Hykrenx> juer XD
+[22:34:10] [Server thread/INFO]: <Millanes89> me roban!!
+[22:34:19] [Server thread/INFO]: <Hykrenx> despres ten torno XD
+[22:34:36] [Server thread/INFO]: <Millanes89> al ladron!
+[22:34:38] [Server thread/INFO]: <Millanes89> D:
+[22:35:06] [Server thread/INFO]: <Hykrenx> entre la trituradora i el forn me pillen tota la energia i no m'arribe al scanner
+[22:35:25] [Server thread/INFO]: <Hykrenx> va, que te regalare un usb de glowstone i tot XD
+[22:35:31] [Server thread/INFO]: <Millanes89> xDD
+[22:35:31] [Server thread/INFO]: <Hykrenx> son barats de fer
+[22:35:39] [Server thread/INFO]: <Hykrenx> comparat amb el tier anterior
+[22:35:58] [Netty Server IO #1/INFO]: [STDOUT]: Research start
+[22:37:00] [Server thread/INFO]: <Millanes89> i la laba?
+[22:37:03] [Server thread/INFO]: <Millanes89> *lava
+[22:37:10] [Server thread/INFO]: <Hykrenx> se ho ha emportat l'albert per a recargar
+[22:37:11] [Server thread/INFO]: <Hykrenx> crec
+[22:37:14] [Server thread/INFO]: <Hykrenx> no m'ha dit re XD
+[22:37:20] [Server thread/INFO]: <Millanes89> pues... nos quedamos sin energia
+[22:37:30] [Server thread/INFO]: <Hykrenx> perque creus que estic cremant carbo jo XD
+[22:37:41] [Server thread/INFO]: <Millanes89> defet em baixat a 20 milion D:
+[22:37:47] [Server thread/INFO]: <Hykrenx> no jodas
+[22:37:55] [Server thread/INFO]: <Hykrenx> si estavem a 40
+[22:37:55] [Server thread/INFO]: <Millanes89> a no a 2
+[22:38:08] [Server thread/INFO]: <Millanes89> ens l'hem pulit
+[22:38:12] [Server thread/INFO]: <Hykrenx> bua
+[22:38:17] [Server thread/INFO]: <Hykrenx> que jefes
+[22:38:52] [Server thread/INFO]: <Millanes89> faig un "altre" ventilador?
+[22:38:54] [Server thread/INFO]: <Millanes89> xD
+[22:38:57] [Server thread/INFO]: <Hykrenx> pues...
+[22:39:00] [Server thread/INFO]: <Hykrenx> casi que si
+[22:39:19] [Server thread/INFO]: <Millanes89> manual o dios?
+[22:39:30] [Server thread/INFO]: <Hykrenx> home, manual dirie jo
+[22:39:38] [Server thread/INFO]: <Hykrenx> el cable no te dic que no
+[22:39:45] [Server thread/INFO]: <Hykrenx> uooo, plasma cutter
+[22:39:50] [Server thread/INFO]: <Hykrenx> :3
+[22:40:04] [Server thread/INFO]: <Millanes89> pensaba q el tenies xD
+[22:40:11] [Server thread/INFO]: <Hykrenx> nope, tu si?
+[22:40:14] [Server thread/INFO]: <Millanes89> no
+[22:40:15] [Server thread/INFO]: <Millanes89> xD
+[22:40:38] [Server thread/INFO]: <Hykrenx> pero veig que ara tinc mes armes per aqui
+[22:40:43] [Server thread/INFO]: <Hykrenx> una espasa laser i tot
+[22:41:29] [Server thread/INFO]: <Millanes89> l'albert la liat
+[22:41:33] [Server thread/INFO]: <Millanes89> a fet de les seves..
+[22:41:36] [Server thread/INFO]: <Hykrenx> si
+[22:41:40] [Server thread/INFO]: <Hykrenx> s'ha cargat el sistema
+[22:41:42] [Server thread/INFO]: <Hykrenx> ja li he dit
+[22:41:47] [Server thread/INFO]: <Millanes89> ....
+[22:41:51] [Server thread/INFO]: <Hykrenx> se pensave que no anave i ho ha desmontat
+[22:43:19] [Server thread/INFO]: <Hykrenx> laser tech 1
+[22:43:25] [Server thread/INFO]: <Hykrenx> el seguent nivell tecnologic
+[22:43:35] [Server thread/INFO]: <Hykrenx> demane... 48k energia per investigau
+[22:43:35] [Server thread/INFO]: <Millanes89> O O
+[22:43:38] [Server thread/INFO]: <Hykrenx> sa puta raça XD
+[22:43:45] [Netty Server IO #3/INFO]: [STDOUT]: Research start
+[22:44:05] [Server thread/INFO]: <Hykrenx> aixo avui no ho investigo ni de conya XD
+[22:44:12] [Server thread/INFO]: <Millanes89> xDD
+[22:45:42] [Server thread/INFO]: <Hykrenx> i a sobre 80 support
+[22:45:55] [Server thread/INFO]: <Hykrenx> puta bida
+[22:46:22] [Server thread/INFO]: <Millanes89> casi nah
+[22:46:33] [Server thread/INFO]: <Hykrenx> el support rai, abans he investigat algo de 400
+[22:46:38] [Server thread/INFO]: <Hykrenx> pero perque tenie les bateries a tope
+[22:46:56] [Server thread/INFO]: <Millanes89> xD
+[22:54:06] [Server thread/INFO]: <Hykrenx> aixo es fara etern XD
+[22:55:07] [Server thread/INFO]: <Millanes89> la eternidad esta sobrevalorada
+[22:55:29] [Server thread/INFO]: <Hykrenx> asco de sistema, ja podrie conectas amb el industrial XD
+[22:55:45] [Server thread/INFO]: <Hykrenx> vale que ara mateix estariem secs, pero niriem rapidisims
+[22:56:03] [Server thread/INFO]: <Millanes89> no es pot conectar amb res?
+[22:56:07] [Server thread/INFO]: <Hykrenx> no
+[22:56:14] [Server thread/INFO]: <Hykrenx> hi ha un motor que no se com va
+[22:56:26] [Server thread/INFO]: <Hykrenx> igual si que deixe conectar amb algo, pero no amb el industrial pel que semlbe
+[22:58:44] [Server thread/INFO]: <Hykrenx> a vegades penso que tinc un tio conectat al cable pillant llum
+[22:58:48] [Server thread/INFO]: <Hykrenx> perque si no no m'ho explico XD
+[22:58:55] [Server thread/INFO]: <Millanes89> xDD
+[22:59:47] [Server thread/INFO]: <Millanes89> el super crusher esta fent algo
+[22:59:49] [Server thread/INFO]: <Millanes89> xD
+[22:59:54] [Server thread/INFO]: <Hykrenx> si no hi ha re XD
+[23:00:00] [Server thread/INFO]: <Millanes89> pues algo fa
+[23:00:12] [Server thread/INFO]: <Hykrenx> mod de qualitat XD
+[23:00:21] [Server thread/INFO]: <Hykrenx> espero que els planetes valguin la pena
+[23:03:23] [Server thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException: The validated object is null
+	at java.util.concurrent.FutureTask.report(Unknown Source) ~[?:1.8.0_144]
+	at java.util.concurrent.FutureTask.get(Unknown Source) ~[?:1.8.0_144]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:720) [MinecraftServer.class:?]
 	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:391) [nx.class:?]
 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:665) [MinecraftServer.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:523) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_144]
-[01:26:44] [User Authenticator #1/INFO]: UUID of player Millanes89 is 1798d8e1-0f11-4bbf-8fae-7aa99157896f
-[01:26:46] [Server thread/INFO]: Millanes89[/192.168.1.1:63688] logged in with entity id 248 at (-253.64170579693257, 76.0, 296.8611082855715)
-[01:26:46] [Server thread/INFO]: Millanes89 joined the game
-[01:32:03] [Server thread/INFO]: Millanes89 lost connection: Disconnected
-[01:32:03] [Server thread/INFO]: Millanes89 left the game
-[01:32:14] [Server thread/INFO]: Stopping the server
-[01:32:14] [Server thread/INFO]: Stopping server
-[01:32:14] [Server thread/INFO]: Saving players
-[01:32:14] [Server thread/INFO]: Saving worlds
-[01:32:14] [Server thread/INFO]: Saving chunks for level 'world'/overworld
-[01:32:14] [Server thread/INFO]: Saving chunks for level 'world'/the_nether
-[01:32:14] [Server thread/INFO]: Saving chunks for level 'world'/the_end
-[01:32:14] [Server thread/INFO]: Saving chunks for level 'world'/tyros
-[01:32:14] [Server thread/INFO]: Saving chunks for level 'world'/Deep Dark
-[01:32:14] [Server thread/INFO]: Saving chunks for level 'world'/menelaus
-[01:32:14] [Server thread/INFO]: Saving chunks for level 'world'/ExtraUtils2_Quarry_Dim
-[01:32:15] [Server Shutdown Thread/INFO]: Stopping server
-[01:32:15] [Server Shutdown Thread/INFO]: Saving players
-[01:32:15] [Server Shutdown Thread/INFO]: Saving worlds
+Caused by: java.lang.NullPointerException: The validated object is null
+	at org.apache.commons.lang3.Validate.notNull(Validate.java:225) ~[minecraft_server.1.12.jar:?]
+	at org.apache.commons.lang3.Validate.notNull(Validate.java:206) ~[minecraft_server.1.12.jar:?]
+	at net.minecraft.util.NonNullList.set(SourceFile:49) ~[fi.class:?]
+	at net.minecraft.entity.player.InventoryPlayer.func_70299_a(InventoryPlayer.java:574) ~[aea.class:?]
+	at futurepack.common.gui.GuiEFurnace$ContainerEFurnace.func_82846_b(GuiEFurnace.java:86) ~[GuiEFurnace$ContainerEFurnace.class:?]
+	at net.minecraft.inventory.Container.func_184996_a(Container.java:244) ~[afp.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147351_a(NetHandlerPlayServer.java:1148) ~[oy.class:?]
+	at net.minecraft.network.play.client.CPacketClickWindow.func_148833_a(CPacketClickWindow.java:38) ~[lf.class:?]
+	at net.minecraft.network.play.client.CPacketClickWindow.func_148833_a(CPacketClickWindow.java:12) ~[lf.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_144]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_144]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
+	... 5 more
+[23:04:47] [Server thread/INFO]: <Hykrenx> calla, que el crusher s'ha arreglat i ja cargue
+[23:05:02] [Server thread/INFO]: <Millanes89> al fin
+[23:05:24] [Server thread/INFO]: <Hykrenx> ara falte el forn XD
+[23:05:35] [Server thread/INFO]: <Hykrenx> li he posat algo a dins a ver que pase
+[23:05:39] [Server thread/INFO]: <Hykrenx> pero segueix pillat
+[23:14:07] [Server thread/INFO]: <Millanes89> la de carbo q se gaste fent les aspes
+[23:14:27] [Server thread/INFO]: <Hykrenx> ironies de ser ecologic XD
+[23:14:38] [Server thread/INFO]: <Millanes89> pos si
+[23:16:31] [Server thread/INFO]: <Hykrenx> i segon i torno
+[23:16:33] [Server thread/INFO]: Hykrenx lost connection: Disconnected
+[23:16:33] [Server thread/INFO]: Hykrenx left the game
+[23:16:37] [Server thread/INFO]: <Millanes89> oook
+[23:16:51] [User Authenticator #3/INFO]: UUID of player Hykrenx is fc76b04c-d6ee-4c3d-b367-d94a546f0a40
+[23:16:54] [Server thread/INFO]: Hykrenx[/2.138.72.148:56330] logged in with entity id 58234 at (-252.87212581548695, 76.0, 286.34925731570826)
+[23:16:54] [Server thread/INFO]: Hykrenx joined the game
+[23:17:19] [Server thread/INFO]: <Hykrenx> el javi ja ve, vaig a buscal
+[23:17:32] [Server thread/INFO]: <Millanes89> = pete el server tanta gent xD
+[23:17:39] [Server thread/INFO]: <Hykrenx> esperem que no XD
+[23:17:57] [Server thread/INFO]: <Hykrenx> lo que no se es si arribare viu o no XD
+[23:18:12] [Server thread/INFO]: <Hykrenx> cada 2 passes se pille XD
+[23:18:18] [Server thread/INFO]: <Millanes89> x aixo
+[23:18:19] [Server thread/INFO]: <Millanes89> xD
+[23:23:59] [Server thread/INFO]: <Hykrenx> fug, se fa de nit XD
+[23:24:17] [Server thread/INFO]: <Hykrenx> crec que a la zona del spawn hi poden haver slimes sota terra
+[23:24:25] [Server thread/INFO]: <Hykrenx> perque el escaner es de color verd
+[23:25:03] [Server thread/INFO]: <Hykrenx> meh, ja ho mirare un dia d'estos
+[23:25:29] [Server thread/INFO]: <Millanes89> xD
+[23:25:33] [Server thread/INFO]: <Millanes89> ara faig de dia
+[23:25:33] [Server thread/WARN]: Millanes89 moved wrongly!
+[23:26:44] [User Authenticator #4/INFO]: UUID of player Blackhawk_alpha1 is 664db3e2-883e-4f36-aea5-59dcecf85b3c
+[23:26:49] [Server thread/INFO]: Blackhawk_alpha1[/2.154.217.17:57375] logged in with entity id 76548 at (25.5, 65.0, 195.5)
+[23:26:49] [Server thread/INFO]: Blackhawk_alpha1 joined the game
+[23:26:53] [Server thread/INFO]: <Hykrenx> milagro
+[23:27:02] [Server thread/INFO]: <Hykrenx> ara te vinc a buscar XD
+[23:27:06] [Server thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException: The validated object is null
+	at java.util.concurrent.FutureTask.report(Unknown Source) ~[?:1.8.0_144]
+	at java.util.concurrent.FutureTask.get(Unknown Source) ~[?:1.8.0_144]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:720) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:391) [nx.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:665) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:523) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_144]
+Caused by: java.lang.NullPointerException: The validated object is null
+	at org.apache.commons.lang3.Validate.notNull(Validate.java:225) ~[minecraft_server.1.12.jar:?]
+	at org.apache.commons.lang3.Validate.notNull(Validate.java:206) ~[minecraft_server.1.12.jar:?]
+	at net.minecraft.util.NonNullList.set(SourceFile:49) ~[fi.class:?]
+	at futurepack.common.block.machines.TileEntityMachineBase.func_70299_a(TileEntityMachineBase.java:124) ~[TileEntityMachineBase.class:?]
+	at futurepack.common.gui.GuiEFurnace$ContainerEFurnace.func_82846_b(GuiEFurnace.java:79) ~[GuiEFurnace$ContainerEFurnace.class:?]
+	at net.minecraft.inventory.Container.func_184996_a(Container.java:244) ~[afp.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147351_a(NetHandlerPlayServer.java:1148) ~[oy.class:?]
+	at net.minecraft.network.play.client.CPacketClickWindow.func_148833_a(CPacketClickWindow.java:38) ~[lf.class:?]
+	at net.minecraft.network.play.client.CPacketClickWindow.func_148833_a(CPacketClickWindow.java:12) ~[lf.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_144]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_144]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
+	... 5 more
+[23:27:17] [Server thread/INFO]: <Millanes89> milagro, habemus super lag
+[23:27:44] [Server thread/INFO]: <Hykrenx> javi, el chat es amb la t
+[23:27:50] [Server thread/INFO]: <Hykrenx> (ho dic per si acas XD)
+[23:27:57] [Server thread/INFO]: Blackhawk_alpha1 lost connection: Internal Exception: java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+[23:27:57] [Server thread/INFO]: Blackhawk_alpha1 left the game
+[23:28:00] [Server thread/INFO]: <Hykrenx> pos ok XD
+[23:28:04] [Server thread/INFO]: <Millanes89> xD
+[23:28:13] [Server thread/INFO]: <Millanes89> = estabe carregant terreno
+[23:28:29] [Server thread/INFO]: <Hykrenx> que li ha petat
+[23:29:11] [Server thread/INFO]: <Millanes89> nuse
+[23:29:21] [Server thread/INFO]: <Hykrenx> sisi, diu que li ha petat
+[23:29:31] [Server thread/INFO]: <Hykrenx> que reinicie i torne a provar
+[23:30:00] [Server thread/INFO]: <Millanes89> li has pasat la versio correcta del Forge?
+[23:30:25] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 25324ms behind, skipping 506 tick(s)
+[23:30:25] [Server thread/INFO]: <Millanes89> li has pasat el forge correcte?
+[23:30:25] [Server thread/WARN]: Hykrenx moved too quickly! 9.811698619995198,-1.1767592750642422,2.5301562746623176
+[23:30:29] [Server thread/INFO]: <Hykrenx> si
+[23:30:35] [Server thread/INFO]: <Millanes89> usti, lagaso xD
+[23:30:37] [User Authenticator #5/INFO]: UUID of player Blackhawk_alpha1 is 664db3e2-883e-4f36-aea5-59dcecf85b3c
+[23:30:40] [Server thread/INFO]: Blackhawk_alpha1[/2.154.217.17:57426] logged in with entity id 85295 at (22.212292721378155, 64.0, 176.13886637523572)
+[23:30:40] [Server thread/INFO]: Blackhawk_alpha1 joined the game
+[23:30:41] [Server thread/INFO]: <Hykrenx> ho he notat XD
+[23:30:46] [Server thread/INFO]: <Hykrenx> estave dalt d'un abre XD
+[23:30:51] [Server thread/INFO]: <Hykrenx> mitel
+[23:31:02] [Server thread/INFO]: <Millanes89> esta descarregant mapa
+[23:31:02] [Server thread/INFO]: <Blackhawk_alpha1> a vere si no peta
+[23:31:13] [Server thread/INFO]: <Millanes89> el mapa hijo, el MAPA!
+[23:31:27] [Server thread/INFO]: <Hykrenx> que majo, vens i me pegues XD
+[23:31:36] [Server thread/INFO]: <Millanes89> metele con el pico
+[23:31:40] [Server thread/INFO]: <Millanes89> digo taladro
+[23:31:41] [Server thread/INFO]: <Blackhawk_alpha1> :*
+[23:31:42] [Server thread/INFO]: <Hykrenx> amb el taladro XD
+[23:31:46] [Server thread/INFO]: <Hykrenx> va, vine
+[23:31:55] [Server thread/INFO]: <Hykrenx> que te portem al bunker de ali baba
+[23:32:19] [Server thread/INFO]: <Millanes89> estic tenint picos de 1.5Megues
+[23:32:22] [Server thread/INFO]: <Millanes89> lo nunca visto
+[23:32:31] [Server thread/INFO]: <Hykrenx> que durin XD
+[23:33:15] [Server thread/INFO]: Blackhawk_alpha1 lost connection: Internal Exception: java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+[23:33:15] [Server thread/INFO]: Blackhawk_alpha1 left the game
+[23:33:18] [Server thread/INFO]: <Millanes89> i peto
+[23:33:21] [Server thread/INFO]: <Hykrenx> sep
+[23:33:52] [Server thread/INFO]: <Millanes89> [23:33:15] [Netty Server IO #9/ERROR] [FML]: NetworkDispatcher exception
+[23:34:00] [Server thread/INFO]: <Hykrenx> curios
+[23:34:14] [Server thread/INFO]: <Millanes89> q no da el internet vamos
+[23:34:37] [Server thread/INFO]: <Millanes89> el javi no te en cache el mapa
+[23:34:43] [Server thread/INFO]: <Millanes89> x eso xupa
+[23:34:45] [Server thread/INFO]: <Hykrenx> sep
+[23:35:46] [User Authenticator #6/INFO]: UUID of player Blackhawk_alpha1 is 664db3e2-883e-4f36-aea5-59dcecf85b3c
+[23:35:49] [Server thread/INFO]: Blackhawk_alpha1[/2.154.217.17:57493] logged in with entity id 94662 at (-195.70276568457484, 72.44045513047197, 238.69999998807907)
+[23:35:49] [Server thread/INFO]: Blackhawk_alpha1 joined the game
+[23:36:20] [Server thread/INFO]: <Hykrenx> darrere
+[23:36:28] [Server thread/INFO]: <Millanes89> ??
+[23:36:33] [Server thread/INFO]: <Hykrenx> re
+[23:36:38] [Server thread/INFO]: <Blackhawk_alpha1> comidaaaaaa
+[23:37:08] [Server thread/INFO]: <Millanes89> ui
+[23:37:11] [Server thread/INFO]: <Millanes89> casi
+[23:37:12] [Server thread/INFO]: <Hykrenx> clica sobre un llit i llestos XD
+[23:37:24] [Server thread/INFO]: <Hykrenx> clic dret
+[23:37:36] [Server thread/INFO]: <Hykrenx> aixi tu marque com a spawn i si palmes tornes aqui
+[23:37:41] [Server thread/INFO]: <Blackhawk_alpha1> dormir es de debils
+[23:37:44] [Server thread/INFO]: <Blackhawk_alpha1> jajajaja
+[23:37:46] [Server thread/INFO]: Blackhawk_alpha1 has made the advancement [Sweet dreams]
+[23:37:51] [Server thread/WARN]: Hykrenx moved wrongly!
+[23:37:51] [Server thread/WARN]: Blackhawk_alpha1 moved wrongly!
+[23:37:55] [Server thread/INFO]: <Hykrenx> donen un logro XD
+[23:38:19] [Server thread/INFO]: <Blackhawk_alpha1> aquest es el mapa del world del minecraft?
+[23:38:23] [Server thread/INFO]: <Hykrenx> se
+[23:38:28] [Server thread/INFO]: <Blackhawk_alpha1> reapment es aixi?
+[23:38:35] [Server thread/INFO]: <Blackhawk_alpha1> i es en temps real?
+[23:38:40] [Server thread/INFO]: <Hykrenx> no
+[23:38:48] [Server thread/INFO]: <Hykrenx> el que hosteje el servirdor el puje al acabar
+[23:38:53] [Server thread/INFO]: <Blackhawk_alpha1> osigui si petes algo no es modifica al mapa
+[23:38:57] [Server thread/INFO]: <Blackhawk_alpha1> aaaaa
+[23:39:06] [Server thread/INFO]: <Hykrenx> no, pero no vagis rebentant coses XD
+[23:39:09] [Server thread/INFO]: <Blackhawk_alpha1> no no
+[23:39:10] [Server thread/INFO]: <Hykrenx> que te conec XD
+[23:39:13] [Server thread/INFO]: <Blackhawk_alpha1> tranquils
+[23:39:25] [Server thread/INFO]: <Blackhawk_alpha1> ja soc feliç
+[23:39:31] [Server thread/INFO]: <Hykrenx> peganme XD
+[23:39:35] [Server thread/INFO]: <Millanes89> q cosa q t'has comprat el joc?
+[23:39:43] [Server thread/INFO]: <Blackhawk_alpha1> a vere, aquest puto paper que tinc el puc tirar?
+[23:39:46] [Server thread/INFO]: <Hykrenx> se
+[23:39:54] [Server thread/INFO]: <Blackhawk_alpha1> fa temps que el volia comprar i mira...
+[23:39:58] [Server thread/INFO]: <Hykrenx> posal en algun cofre i ja farem cigarros amb ell
+[23:40:17] [Server thread/INFO]: <Blackhawk_alpha1> jajajajaj
+[23:40:24] [Server thread/INFO]: <Hykrenx> se veu raro el segon ventilador desde terra, eloy
+[23:40:25] [Server thread/INFO]: <Blackhawk_alpha1> on teniu los cofres?
+[23:40:32] [Server thread/INFO]: <Hykrenx> darrere teu
+[23:40:44] [Server thread/INFO]: <Hykrenx> ande vas
+[23:40:55] [Server thread/INFO]: <Hykrenx> que les plantes punxen XD
+[23:41:06] [Server thread/INFO]: <Blackhawk_alpha1> pero no fan mal
+[23:41:22] [Server thread/INFO]: <Hykrenx> pilla casco si vols
+[23:41:26] [Server thread/INFO]: <Hykrenx> els va fer l'albert per accident
+[23:41:29] [Server thread/INFO]: Blackhawk_alpha1 lost connection: Internal Exception: java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+[23:41:29] [Server thread/INFO]: Blackhawk_alpha1 left the game
+[23:41:34] [Server thread/INFO]: <Hykrenx> pum
+[23:41:43] [Server thread/INFO]: <Millanes89> sep
+[23:41:51] [Server thread/INFO]: <Millanes89> tu tens millor internet, no lluis?
+[23:41:58] [Server thread/INFO]: <Hykrenx> si
+[23:42:04] [Server thread/INFO]: <Millanes89> fotli tu pos
+[23:42:07] [Server thread/INFO]: <Millanes89> q amb mi...
+[23:42:12] [Server thread/INFO]: <Hykrenx> val, pujal
+[23:42:17] [Server thread/INFO]: <Millanes89> xapo i pujo
+[23:42:20] [Server thread/INFO]: Hykrenx lost connection: Disconnected
+[23:42:20] [Server thread/INFO]: Hykrenx left the game
+[23:42:22] [Server thread/INFO]: Millanes89 lost connection: Disconnected
+[23:42:22] [Server thread/INFO]: Millanes89 left the game
+[23:42:31] [Server thread/INFO]: Stopping the server
+[23:42:31] [Server thread/INFO]: Stopping server
+[23:42:31] [Server thread/INFO]: Saving players
+[23:42:31] [Server thread/INFO]: Saving worlds
+[23:42:31] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[23:42:31] [Server thread/INFO]: Saving chunks for level 'world'/the_nether
+[23:42:31] [Server thread/INFO]: Saving chunks for level 'world'/the_end
+[23:42:31] [Server thread/INFO]: Saving chunks for level 'world'/tyros
+[23:42:31] [Server thread/INFO]: Saving chunks for level 'world'/Deep Dark
+[23:42:31] [Server thread/INFO]: Saving chunks for level 'world'/menelaus
+[23:42:31] [Server thread/INFO]: Saving chunks for level 'world'/ExtraUtils2_Quarry_Dim
+[23:42:31] [Server Shutdown Thread/INFO]: Stopping server
+[23:42:31] [Server Shutdown Thread/INFO]: Saving players
+[23:42:31] [Server Shutdown Thread/INFO]: Saving worlds
