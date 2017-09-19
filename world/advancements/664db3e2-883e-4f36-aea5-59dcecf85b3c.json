@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2017-09-04 00:06:02 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "entered_water": "2017-09-03 23:27:45 +0200"
